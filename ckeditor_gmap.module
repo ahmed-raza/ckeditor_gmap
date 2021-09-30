@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ckeditor_gmap.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ckeditor_gmap_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ckeditor_gmap module.
+    case 'help.page.ckeditor_gmap':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides Google Maps in Ckeditor') . '</p>';
+      return $output;
+
+    default:
+  }
+}
