@@ -1,0 +1,7 @@
+name: 'CKEditor GMAP'
+type: module
+description: 'Provides Google Maps in CKEditor'
+core_version_requirement: ^8.8 || ^9
+package: 'CKEditor'
+dependencies:
+  - ckeditor
