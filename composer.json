@@ -1,0 +1,13 @@
+{
+    "name": "drupal/ckeditor_gmap",
+    "type": "drupal-module",
+    "description": "Provides Google Maps in Ckeditor",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ckeditor_gmap",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ckeditor_gmap",
+        "source": "http://cgit.drupalcode.org/ckeditor_gmap"
+    }
+}
